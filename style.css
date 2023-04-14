@@ -12,14 +12,12 @@ body {
 .menu {
   width: 22px;
   height: 20px;
-  margin-top: 10px;
   position: relative;
 }
 
 .shop {
   width: 22px;
   height: 20px;
-  margin-top: 10px;
 }
 
 .navbar {
@@ -76,7 +74,7 @@ body {
   
   .img-carousel {
     width: 70%;
-    margin-left: 172%;
+    margin-left: 165%;
     box-shadow: 5px 5px 25px 5px;
   }
 
@@ -199,7 +197,6 @@ h5 {
 .phone {
     width: 20px;
     height: 20px;
-    margin-top: 15px;
 }
 
 .whatsapp-container {
@@ -228,7 +225,7 @@ footer {
   left: 0;
   box-shadow: 2px 0px 5px 2px;
   width: 220px;
-  height: 100vh;
+  height: 110vh;
   position: fixed;
   transition: all .5s ease;
   display: flex;
@@ -242,12 +239,13 @@ footer {
 
 .overlay li {
   color: white;
-    display: block;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px 50px;
-    cursor: pointer;
-    margin-left: -55px;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 50px;
+  cursor: pointer;
+  margin-left: -55px;
+  margin-top: -25px;
 }
 
 .overlay ul li:hover {
@@ -258,6 +256,8 @@ footer {
 .menu-cancel {
   text-decoration: none;
   color: white;
+  font-size: 1rem;
+  margin: 17px;
 }
 
 .active {
@@ -276,7 +276,7 @@ footer {
 
 .footer-overlay {
   margin-top: 260%;
-  margin-left: -67px;
+  margin-left: -55px;
   font-size: 25px;
   color: cornsilk;
 }
@@ -284,4 +284,53 @@ footer {
 .img-cerrar {
   margin-left: 750%;
   margin-top: 95%;
+}
+
+#dropdownMenuButton1 {
+  color: #fff;
+  background-color: rgb(77, 77, 77);
+  border-color: rgb(77, 77, 77);
+}
+
+.dropdown-menu {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+  width: 150px;
+}
+
+ul.dropdown-menu.show {
+  width: 50px;
+    height: 200px;
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(0px, 39px, 0px);
+    background-color: cornsilk;
+}
+
+a.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1rem;
+  clear: both;
+  font-weight: 300;
+  color: #212529;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
 }
