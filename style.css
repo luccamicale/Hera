@@ -9,7 +9,13 @@ body {
   height: 45px;
 }
 
-.menu, 
+.menu {
+  width: 22px;
+  height: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
 .shop {
   width: 22px;
   height: 20px;
@@ -70,7 +76,7 @@ body {
   
   .img-carousel {
     width: 70%;
-    margin-left: 5%;
+    margin-left: 172%;
     box-shadow: 5px 5px 25px 5px;
   }
 
@@ -215,4 +221,67 @@ footer {
     color: white;
     margin-top: 20px;
 }
-  
+
+.overlay {
+  background-color: rgb(77, 77, 77);
+  top: 0;
+  left: 0;
+  box-shadow: 2px 0px 5px 2px;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  transition: all .5s ease;
+  display: flex;
+  display: none;
+}
+
+.overlay ul {
+  padding: 100px 0px 20px 0px;
+  list-style: none;
+}
+
+.overlay li {
+  color: white;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-left: -55px;
+}
+
+.overlay ul li:hover {
+  background-color: white;
+  color: rgb(42, 42, 42);
+}
+
+.menu-cancel {
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  transform: translate(-600px);
+}
+
+.opacity {
+  background-color: rgb(0,0,0,0.5);
+  transition: all .5s ease;
+}
+
+.hr-line {
+  margin-left: -25px;
+  width: 150%;
+}
+
+.footer-overlay {
+  margin-top: 260%;
+  margin-left: -67px;
+  font-size: 25px;
+  color: cornsilk;
+}
+
+.img-cerrar {
+  margin-left: 750%;
+  margin-top: 95%;
+}

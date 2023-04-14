@@ -13,7 +13,7 @@
 <body>
     <section class="main-section">
         <nav class="navbar">
-            <img class="menu" src="images/menu-de-hamburguesas.png">
+            <img class="menu" id="icono-menu" src="images/menu-de-hamburguesas.png">
             <h3>HERA</h3>
             <img class="shop" src="images/carrito-de-compras.png">
         </nav>
@@ -94,7 +94,7 @@
                 <img class="icon-2" src="images/instagram.png">
             </div>
         </div>
-        <div class="contactanos">
+        <div class="contactanos" id="contacto">
             <h4 class="contac-title">CONTACTANOS</h4>
             <div class="container-phone">
                 <img class="phone" src="images/telefono.png">
@@ -114,7 +114,22 @@
         <p>Copyright Hera - 2023. Todos Los Derechos Reservados</p>
         <p>Created By The Best</p>
     </footer>
-      
+    
+    <div class="overlay">
+        <div class="cancel">
+            <a href="#"><img class="img-cerrar" src="images/cruzar.png" alt="icom-cancel"></a>
+        </div>
+        <ul class="menu-main">
+            <li><a class="menu-cancel" id="menu-can1" href="#portfolio">Aros</a></li>
+            <hr class="hr-line">
+            <li><a class="menu-cancel" id="menu-can2" href="#about">Collares</a></li>
+            <hr class="hr-line">
+            <li><a class="menu-cancel" id="menu-can3" href="#contact">Pulseras</a></li>
+            <hr class="hr-line">
+            <li><a class="menu-cancel" id="menu-can3" href="#contacto">Contacto</a></li>
+        </ul>
+        <p class="footer-overlay">HERA</p>
+    </div>
 
     <script src="app.js"></script>
 </body>
