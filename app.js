@@ -43,7 +43,7 @@ hamburger.addEventListener('click', () => {
   mainMenu.style.display = 'block';
 });
 
-mainMenu.addEventListener('click', () => {
+cancel.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
