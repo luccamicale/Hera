@@ -66,16 +66,19 @@ body {
   
   .prev {
     left: 0;
+    top: 15px;
   }
   
   .next {
     right: 0;
+    top: 15px;
   }
   
   .img-carousel {
     width: 70%;
     margin-left: 605px;
     box-shadow: 5px 5px 25px 5px;
+    height: 370px;
   }
 
   .destacados {
@@ -112,7 +115,7 @@ h5 {
 }
 
 .description {
-  font-family: 'Lobster', cursive;
+  font-family: 'Slabo 27px', serif;
   line-height: 20px;
   margin-top: -15px;
   font-size: 14px;
@@ -136,8 +139,10 @@ h5 {
 }
 
 .button-ver {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
 }
 
 .container-items .item {
@@ -160,7 +165,7 @@ h5 {
 }
 
 .seguinos {
-    margin-top: 120px;
+    margin-top: 90px;
     margin-left: 15%;
     background-color: cornsilk;
     width: 70%;
@@ -170,19 +175,24 @@ h5 {
 
 .container-icon {
   display: flex;
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 .icon {
     margin-left: 39%;
+    width: 50%
 }
 
 .icon-2 {
-    margin-left: 10%;
+    margin-left: 100%;
+    width: 50%
 }
 
 .container-phone {
   display: flex;
   margin-left: 15px;
+  margin-top: 10px;
 }
 
 .contactanos {
@@ -193,6 +203,7 @@ h5 {
 
 .contac-title {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .phone {
@@ -259,6 +270,7 @@ footer {
   color: white;
   font-size: 1rem;
   margin: 17px;
+  font-family: 'Aboreto';
 }
 
 .active {
@@ -277,7 +289,7 @@ footer {
 
 .footer-overlay {
   margin-top: 260%;
-  margin-left: -95px;
+  margin-left: -125px;
   font-size: 25px;
   color: cornsilk;
 }
@@ -401,6 +413,7 @@ a.dropdown-item {
   margin-top: 30px;
   background-color: cornsilk;
   text-align: center;
+  font-family: 'Aboreto', cursive;
 }
 
 
@@ -459,6 +472,8 @@ button.btn.btn-secondary {
   height: 30px;
   font-size: 18px;
   margin-left: 10px;
+  font-family: 'Aboreto';
+  line-height: 20px;
 }
 
 .btn-check:focus+.btn-secondary, .btn-secondary:focus {
@@ -486,4 +501,8 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
 
 #dropdownMenuButton1 {
   font-size: 16px;
+}
+
+.phone-number {
+  margin-left: 15px;
 }
