@@ -11,7 +11,7 @@ body {
 
 .menu {
   width: 22px;
-  height: 20px;
+  height: 21px;
   position: relative;
 }
 
@@ -243,7 +243,7 @@ footer {
 }
 
 .overlay ul {
-  padding: 100px 0px 20px 0px;
+  padding: 100px 0px 30px 10px;
   list-style: none;
 }
 
@@ -256,6 +256,7 @@ footer {
   cursor: pointer;
   margin-left: -45px;
   margin-top: -15px;
+  
 }
 
 .overlay ul li:hover {
@@ -282,12 +283,12 @@ footer {
 
 .hr-line {
   margin-left: -25px;
-  width: 150%;
+  width: 100%;
 }
 
 .footer-overlay {
   margin-top: 260%;
-  margin-left: -125px;
+  margin-left: -115px;
   font-size: 25px;
   color: cornsilk;
 }
@@ -503,4 +504,9 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
 
 .phone-number {
   margin-left: 15px;
+}
+
+.cancel {
+  margin-left: 25px;
+  margin-top: 10px;
 }
