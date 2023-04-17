@@ -16,8 +16,8 @@ body {
 }
 
 .shop {
-  width: 22px;
-  height: 20px;
+  width: 25px;
+  height: 24px;
 }
 
 .navbar {
@@ -323,7 +323,7 @@ footer {
 }
 
 ul.dropdown-menu.show {
-  width: 50px;
+  width: 170px;
     height: 160px;
     position: absolute;
     inset: 0px auto auto 0px;
@@ -507,6 +507,6 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
 }
 
 .cancel {
-  margin-left: 25px;
-  margin-top: 10px;
+  margin-left: 21px;
+  margin-top: 9px;
 }
