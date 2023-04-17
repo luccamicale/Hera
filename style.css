@@ -66,12 +66,10 @@ body {
   
   .prev {
     left: 0;
-    top: 15px;
   }
   
   .next {
     right: 0;
-    top: 15px;
   }
   
   .img-carousel {

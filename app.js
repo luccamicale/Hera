@@ -35,7 +35,7 @@ next.addEventListener('click', function() {
 const hamburger = document.querySelector('.menu');
 const overlay = document.querySelector('.overlay');
 const mainMenu = document.querySelector('.menu-main');
-const cancel = document.querySelector('.cancel');
+const cancel = document.querySelector('.img-cerrar');
 const linkss = document.querySelectorAll('.menu-cancel');
 
 hamburger.addEventListener('click', () => {
@@ -43,7 +43,7 @@ hamburger.addEventListener('click', () => {
   mainMenu.style.display = 'block';
 });
 
-cancel.addEventListener('click', () => {
+mainMenu.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
