@@ -1,3 +1,5 @@
+//create functions for the carousel
+
 var slides = document.querySelectorAll('.slide');
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide, 5000); /* Change slide every 5 seconds */
@@ -52,3 +54,6 @@ for (let i = 0; i < linkss.length; i += 1) {
     overlay.style.display = 'none';
   });
 }
+
+//create a function for the online shop
+
