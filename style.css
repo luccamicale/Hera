@@ -562,3 +562,8 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
   color: cornsilk;
   padding: 5px;
 }
+
+.text-muted {
+  color: cornsilk;
+  background-color: black;
+}
