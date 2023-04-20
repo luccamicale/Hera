@@ -24,54 +24,61 @@
         </section>
         <br>
         <section>
-            <div class="container-carrito">
-                <h5 class="carrito-title">CARRITO DE COMPRAS</h5>
-                <div class="subcontainer-carrito">
-                    <img class="img-carrito" src="images/5.jpg" alt="img-carrito">
-                    <div>
-                        <p class="desc-carrito">Pulsera Fucking</p>
-                        <p class="unidad-carrito">Unidad: 1</p>
-                    </div>
-                    <h6 class="precio-carrito">$1490</h6>
-                </div>
-                <div class="subcontainer-carrito">
-                    <img class="img-carrito" src="images/2.jpg" alt="img-carrito">
-                    <div>
-                        <p class="desc-carrito">Pulsera Fucking</p>
-                        <p class="unidad-carrito">Unidad: 1</p>
-                    </div>
-                    <h6 class="precio-carrito">$1490</h6>
-                </div>
-                <div class="subcontainer-carrito">
-                    <img class="img-carrito" src="images/3.jpg" alt="img-carrito">
-                    <div>
-                        <p class="desc-carrito">Pulsera Fucking</p>
-                        <p class="unidad-carrito">Unidad: 1</p>
-                    </div>
-                    <h6 class="precio-carrito">$1490</h6>
-                </div>
-                <div class="subcontainer-carrito">
-                    <img class="img-carrito" src="images/4.jpg" alt="img-carrito">
-                    <div>
-                        <p class="desc-carrito">Pulsera Fucking</p>
-                        <p class="unidad-carrito">Unidad: 1</p>
-                    </div>
-                    <h6 class="precio-carrito">$1490</h6>
-                </div>
-                <div class="subcontainer-carrito">
-                    <img class="img-carrito" src="images/6.jpg" alt="img-carrito">
-                    <div>
-                        <p class="desc-carrito">Pulsera Fucking</p>
-                        <p class="unidad-carrito">Unidad: 1</p>
-                    </div>
-                    <h6 class="precio-carrito">$1490</h6>
-                </div>
-                <div class="container-comprar">
-                    <h5 class="total">TOTAL :$6520</h5>
-                    <button class="but-comprar">COMPRAR</button>
-                </div>
+            <div>
+                <img class="img-contact" src="images/hera.jpeg">
             </div>
+            <div>
+                <h2 class="contacto-form">SHOP</h2>
+            </div>
+            <form action="https://formspree.io/f/xknegzyn" method="POST" id="form">
+                <ul class="container-form">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Telefono/WhatsApp</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Numero de telefono" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="aros" class="form-label">Aros</label>
+                    <select class="form-select" aria-label="Default select example" id="aros" name="aros" required>
+                      <option value="">Seleccione una opción</option>
+                      <option value="aro1">Aro 1</option>
+                      <option value="aro2">Aro 2</option>
+                      <option value="aro3">Aro 3</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="pulseras" class="form-label">Pulseras</label>
+                    <select class="form-select" aria-label="Default select example" id="pulseras" name="pulseras" required>
+                      <option value="">Seleccione una opción</option>
+                      <option value="pulsera1">Pulsera 1</option>
+                      <option value="pulsera2">Pulsera 2</option>
+                      <option value="pulsera3">Pulsera 3</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="collares" class="form-label">Collares</label>
+                    <select class="form-select" aria-label="Default select example" id="collares" name="collares" required>
+                      <option value="">Seleccione una opción</option>
+                      <option value="collar1">Collar 1</option>
+                      <option value="collar2">Collar 2</option>
+                      <option value="collar3">Collar 3</option>
+                    </select>
+                  </div>
+                  <div class="form-floating">
+                    <textarea class="form-control" name="comments" placeholder="Leave a comment here" id="comments"></textarea>
+                    <label for="comments">Comentarios (opcional)</label>
+                  </div>
+                  <button tabindex="0" type="submit" id="sub">Enviar</button>
+                  <small id="mistake"></small>
+                </ul>
+              </form>
+              
+              
         </section>
+        
         <section>
             <div>
                 <h4 class="seguinos" id="seguinos">SEGUINOS EN LAS REDES</h4>
@@ -137,3 +144,53 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+  <!-- <section>
+            <div class="container-carrito">
+                <h5 class="carrito-title">CARRITO DE COMPRAS</h5>
+                <div class="subcontainer-carrito">
+                    <img class="img-carrito" src="images/5.jpg" alt="img-carrito">
+                    <div>
+                        <p class="desc-carrito">Pulsera Fucking</p>
+                        <p class="unidad-carrito">Unidad: 1</p>
+                    </div>
+                    <h6 class="precio-carrito">$1490</h6>
+                </div>
+                <div class="subcontainer-carrito">
+                    <img class="img-carrito" src="images/2.jpg" alt="img-carrito">
+                    <div>
+                        <p class="desc-carrito">Pulsera Fucking</p>
+                        <p class="unidad-carrito">Unidad: 1</p>
+                    </div>
+                    <h6 class="precio-carrito">$1490</h6>
+                </div>
+                <div class="subcontainer-carrito">
+                    <img class="img-carrito" src="images/3.jpg" alt="img-carrito">
+                    <div>
+                        <p class="desc-carrito">Pulsera Fucking</p>
+                        <p class="unidad-carrito">Unidad: 1</p>
+                    </div>
+                    <h6 class="precio-carrito">$1490</h6>
+                </div>
+                <div class="subcontainer-carrito">
+                    <img class="img-carrito" src="images/4.jpg" alt="img-carrito">
+                    <div>
+                        <p class="desc-carrito">Pulsera Fucking</p>
+                        <p class="unidad-carrito">Unidad: 1</p>
+                    </div>
+                    <h6 class="precio-carrito">$1490</h6>
+                </div>
+                <div class="subcontainer-carrito">
+                    <img class="img-carrito" src="images/6.jpg" alt="img-carrito">
+                    <div>
+                        <p class="desc-carrito">Pulsera Fucking</p>
+                        <p class="unidad-carrito">Unidad: 1</p>
+                    </div>
+                    <h6 class="precio-carrito">$1490</h6>
+                </div>
+                <div class="container-comprar">
+                    <h5 class="total">TOTAL :$6520</h5>
+                    <button class="but-comprar">COMPRAR</button>
+                </div>
+            </div>
+        </section> -->
