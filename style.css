@@ -562,3 +562,59 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
   color: cornsilk;
   padding: 5px;
 }
+
+.img-contact {
+  width: 100%;
+  margin-top: -25px;
+}
+
+.contacto-form {
+  background-color: cornsilk;
+  margin-left: 40px;
+  padding: 50px;
+  text-align: center;
+  width: 80%;
+  margin-top: -50px;
+  position: absolute;
+  box-shadow: 5px 5px 50px 10px;
+}
+
+form {
+  height: 550px;
+  margin-top: 130px;
+}
+
+#sub {
+  margin-top: 50px;
+  margin-left: 35%;
+  padding: 10px;
+  background-color: black;
+  color: cornsilk;
+}
+
+.container-form {
+  width: 80%;
+  margin-left: 25px;
+}
+
+#floatingPlaintextInput {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  border: solid transparent;
+  border-width: 1px 0;
+  background-color: cornsilk;
+}
+
+#floatingTextarea {
+  margin-top: 20px;
+}
+
+.form-label {
+  font-family: aboreto;
+  color: black;
+}

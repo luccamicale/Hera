@@ -1,35 +1,36 @@
 //create functions for the carousel
 
-var slides = document.querySelectorAll('.slide');
-var currentSlide = 0;
-var slideInterval = setInterval(nextSlide, 5000); /* Change slide every 5 seconds */
+const slides = document.querySelectorAll('.slide');
+let currentSlide = 0;
+let slideInterval = setInterval(nextSlide, 5000); /* Change slide every 5 seconds */
 
 function nextSlide() {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].classList.remove('active');
   currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].className = 'slide active';
+  slides[currentSlide].classList.add('active');
 }
 
 function prevSlide() {
-  slides[currentSlide].className = 'slide';
+  slides[currentSlide].classList.remove('active');
   currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-  slides[currentSlide].className = 'slide active';
+  slides[currentSlide].classList.add('active');
 }
 
-var prev = document.querySelector('.prev');
-var next = document.querySelector('.next');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
 
-prev.addEventListener('click', function() {
+prev.addEventListener('click', () => {
   prevSlide();
   clearInterval(slideInterval);
   slideInterval = setInterval(nextSlide, 5000);
 });
 
-next.addEventListener('click', function() {
+next.addEventListener('click', () => {
   nextSlide();
   clearInterval(slideInterval);
   slideInterval = setInterval(nextSlide, 5000);
 });
+
 
 
 // create a menu in version mobile
@@ -54,6 +55,3 @@ for (let i = 0; i < linkss.length; i += 1) {
     overlay.style.display = 'none';
   });
 }
-
-//create a function for the online shop
-
