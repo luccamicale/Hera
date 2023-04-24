@@ -132,7 +132,7 @@ h5 {
     text-align: center;
     margin-top: -100px;
     position: absolute;
-    margin-left: 18%;
+    margin-left: 21%;
     box-shadow: 5px 5px 25px 5px;
 }
 
@@ -324,7 +324,7 @@ footer {
 
 ul.dropdown-menu.show {
   width: 170px;
-    height: 160px;
+    height: 190px;
     position: absolute;
     inset: 0px auto auto 0px;
     margin: 0px;
@@ -444,6 +444,10 @@ a.dropdown-item {
 
 .box-pulseras {
   background: url(images/descarga-pulseras.jpg);
+}
+
+.box-otros {
+  background: url(images/descarga-otros3.jpg);
 }
 
 .btn {
