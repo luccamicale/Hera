@@ -123,6 +123,7 @@ h5 {
     width: 80%;
     margin: 11%;
     margin-top: 120px;
+    height: 400px;
 }
 
 .subcontainer-items {
@@ -630,4 +631,24 @@ form {
   background-color: rgba(0,0,0,.03);
   border-top: 1px solid rgba(0,0,0,.125);
   margin-top: -10px;
+}
+
+.out-of-stock {
+  opacity: 0.6; /* Reduce la opacidad de la tarjeta para que parezca desvanecida */
+  pointer-events: none; /* Desactiva la interacción con el mouse para evitar que los usuarios hagan clic en la tarjeta */
+  position: relative; /* Posiciona el contenido dentro de la tarjeta */
+}
+
+.out-of-stock::before {
+  content: "SIN STOCK"; /* Agrega un texto que indique que el producto está agotado */
+  position: absolute; /* Posiciona el texto en la esquina superior izquierda de la tarjeta */
+  text-align: center;
+  top: 10%;
+  left: 5%;
+  width: 90%;
+  height: 25px;
+  font-size: 12px;
+  background-color: rgb(0, 0, 0); /* Establece el color de fondo del texto */
+  color: white; /* Establece el color del texto */
+  padding: 5px; /* Agrega un relleno alrededor del texto para que se vea mejor */
 }
