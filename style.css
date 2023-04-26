@@ -400,16 +400,53 @@ a.dropdown-item {
   display: none;
 }
 
-@media (min-width: 428px ){
+@media (min-width: 440px ){
+  .img-carousel {
+    height: 550px;
+    margin-left: 618px;
+  }
+
+  .item {
+    height: 520px;
+  }
+
+  .container-icon {
+    margin-left: 33%;
+  }
+
+  .contacto-form {
+    margin-left: 10%;
+  }
+
+  .frame-text {
+    background-color: white;
+    width: 60%;
+    padding: 10%;
+    margin-top: 179%;
+    margin-left: -45px;
+    height: 170px;
+  }
+
+  .card-group {
+    margin-left: 32px;
+  }
+
+  #sub {
+    width: 33%;
+  }
+}
+
+@media (min-width: 540px ) {
   .construccion {
     display: flex;
-    width: 100%;
   }
 
   .hide-page {
     display: none;
   }
 }
+
+
 
 .title-acero-blanco {
   margin-top: 30px;
@@ -577,7 +614,7 @@ button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split {
 
 .contacto-form {
   background-color: cornsilk;
-  margin-left: 40px;
+  margin-left: 10%;
   padding: 50px;
   text-align: center;
   width: 80%;
@@ -601,7 +638,7 @@ form {
 
 .container-form {
   width: 80%;
-  margin-left: 25px;
+  margin-left: 6%;
 }
 
 #floatingPlaintextInput {
