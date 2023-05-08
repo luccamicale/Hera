@@ -615,6 +615,55 @@ a.dropdown-item {
   .envios {
     margin-left: 40%;
   }
+
+  .card-group {
+    width: 45%;
+    margin-left: 27%;
+    margin-top: 300px;
+  }
+
+  .card {
+    margin-right: 70px;
+    box-shadow: 5px 5px 25px 5px;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 28px;
+  }
+
+  .card-footer {
+    font-size: 22px;
+  }
+
+  .title-acero-blanco {
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .img-contact {
+    display: none;
+  }
+
+  .mb-3 {
+    width: 60%;
+    height: 90px;
+    text-align: center;
+    margin-left: 23%;
+  }
+
+  .form-floating {
+    width: 60%;
+    margin-left: 23%;
+  }
+
+  .whatsapp {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .title-acero-blanco {
