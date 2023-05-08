@@ -436,17 +436,235 @@ a.dropdown-item {
   }
 }
 
-@media (min-width: 540px ) {
-  .construccion {
-    display: flex;
+@media (min-width: 728px ) {
+  .main-section {
+    height: 60px;
   }
 
-  .hide-page {
+  .shop {
+    width: 30px;
+    height: 29px;
+    margin-right: 25px;
+  }
+
+  .menu {
+    width: 30px;
+    height: 29px;
+    position: relative;
+    margin-left: 25px;
+  }
+
+  .destacados {
+    margin-top: 7%;
+    height: 50px;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Set the maximum width of the carousel */
+    margin: 0 auto; /* Center the carousel horizontally */
+    margin-top: -30px;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 70%;
+    width: 50px;
+  }
+
+  .prev {
+    right: 160px;
+    width: 80px;
+    text-align: center;
+    height: 100px;
+    margin-top: 550px;
+    margin-left: -250px;
+    padding-top: 5%;
+  }
+  
+  .next {
+    right: -220px;
+    width: 80px;
+    text-align: center;
+    height: 100px;
+    margin-top: 550px;
+    padding-top: 5%;
+  }
+
+  .img-carousel {
+    width: 80vh;
+    margin-left: 450px;
+    box-shadow: 5px 5px 25px 5px;
+    height: 870px;
+  }
+
+  .frame {
+    margin-top: 1320px;
+    width: 40%;
+    height: 30%;
+    padding: 30px;
+  }
+
+  .frame-text {
+    margin-top: 1280px;
+    
+  }
+  
+  .description {
+    font-family: 'Slabo 27px', serif;
+    line-height: 40px;
+    margin-top: -60px;
+    font-size: 25px;
+    height: auto;
+  }
+
+  .container-items {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16%;
+    margin-top: 5%;
+  }
+
+  .item {
+    width: 450px;
+    height: 500px;
+    justify-content: space-around;
+  }
+
+  #item1 {
+    margin-left: -90px;
+  }
+
+  #item2 {
+    margin-left: 100px;
+  }
+
+  #item3 {
+    margin-left: 110px;
+  }
+
+  .subcontainer-items{
+    width: 17%;
+    height: 150px;
+  }
+
+  #sub-item1 {
+    margin-left: -40px;
+    margin-top: -80px;
+  }
+
+  #sub-item2 {
+    margin-left: 150px;
+  }
+
+  #sub-item3 {
+    margin-left: 160px;
+  }
+
+  .item-desc {
+    font-size: 27px;
+  }
+
+  .button-ver {
+    padding: 20px
+  }
+
+  .seguinos {
+    margin-top: 10%;
+    height: 50px;
+  }
+
+  .container-icon {
+    margin-left: 40%;
+  }
+
+  .icon {
+    width: 50px;
+  }
+
+  .icon-2 {
+    width: 50px;
+    margin-left: 250px;
+  }
+
+  .contactanos {
+    margin-top: 30px;
+    font-size: 25px;
+    box-shadow: 5px 5px 25px 5px;
+  }
+
+  .contac-title {
+    font-size: 50px;
+  }
+
+  .phone {
+    width: 40px;
+    height: 40px;
+  }
+
+  .envios {
+    margin-left: 40%;
+  }
+
+  .card-group {
+    width: 45%;
+    margin-left: 27%;
+    margin-top: 300px;
+  }
+
+  .card {
+    margin-right: 70px;
+    box-shadow: 5px 5px 25px 5px;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 28px;
+  }
+
+  .card-footer {
+    font-size: 22px;
+  }
+
+  .title-acero-blanco {
+    height: 35px;
+    font-size: 20px;
+  }
+
+  .img-contact {
     display: none;
   }
+
+  .mb-3 {
+    width: 60%;
+    height: 90px;
+    text-align: center;
+    margin-left: 23%;
+  }
+
+  .form-floating {
+    width: 60%;
+    margin-left: 23%;
+  }
+
+  .whatsapp {
+    width: 70px;
+    height: 70px;
+  }
 }
-
-
 
 .title-acero-blanco {
   margin-top: 30px;
